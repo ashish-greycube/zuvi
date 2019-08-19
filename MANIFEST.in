@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include zuvi *.css
+recursive-include zuvi *.csv
+recursive-include zuvi *.html
+recursive-include zuvi *.ico
+recursive-include zuvi *.js
+recursive-include zuvi *.json
+recursive-include zuvi *.md
+recursive-include zuvi *.png
+recursive-include zuvi *.py
+recursive-include zuvi *.svg
+recursive-include zuvi *.txt
+recursive-exclude zuvi *.pyc
