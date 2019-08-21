@@ -19,6 +19,7 @@ def calculate_contribution(self,mehtod):
         sales_person.allocated_amount=1
         sales_person.incentives=1
         sales_person.commission_rate=1
+    return
         # sales_person.allocated_amount = flt(
         #     self.base_net_total * sales_person.allocated_percentage / 100.0,
         #     self.precision("allocated_amount", sales_person))
